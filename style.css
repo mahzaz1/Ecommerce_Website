@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #ececec;
+
+}
+p{
+    color: #555;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0px 50px;
+}
+.navbar{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+nav{
+    text-align: right;
+    flex: 1;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+}
+nav ul li .fas{
+    color: #ff523b;
+}
+.showcase{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    /* flex-wrap: wrap; */
+}
+.col-2{
+    flex-basis: 50%;
+    /* min-width: 300px; */
+}
+.col-2 img{
+    padding-top: 20px;
+    max-width: 89%;
+}
+.col-2 h1{
+    font-size: 50px;
+}
+.col-2 p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.btn{
+    display: inline-block;
+    padding: 8px 25px;
+    background-color: #ff523b;
+    color: white;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: 0.8s ease-in-out;
+    font-size: 14px;
+}
+.btn:hover{
+    background: #563434;
+    transform:translateX(10px);
+}
+.header{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.category{
+    margin: 0px 50px;
+}
+.col-3 , .col-4{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -18px;
+    flex-basis: 30%;
+}
+.col-3 p{
+    font-size: 14px;
+}
+.col-4{
+    flex-basis: 22.5%;
+}
+.col-4 img , .col-3 img{
+    max-width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 80px  0px 50px 0px;
+    color: #555;
+    position: relative;
+    line-height: 2em;
+}
+.title::before{
+    content: '';
+    margin-top: 60px;
+    background: #ff523b;
+    width: 80px;
+    height: 6px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.col-4 , .col-3{
+    line-height: 1.5em;
+    transition: 0.5s;
+}
+.text{
+    text-align: center;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
+.col-4 h4{
+    color: #555;
+}
+.fas , .far{
+    color: #ff523b;
+}
+.offer{
+    margin-top: 30px;
+    background: radial-gradient(#fff, #ffd6d6); 
+}
+.offer .offer-img{
+    padding: 50px 0px 50px 50px;
+    max-width: 80%;
+    z-index: 1;
+}
+.testimonials .col-3{
+    padding: 20px 0px;
+}
+.testimonials{
+    margin: 40px 0px;
+}
